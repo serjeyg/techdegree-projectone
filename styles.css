@@ -7,11 +7,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'times new roman', sans-serif;
+  font-family: 'georgia', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
-/* Link Styles */
+/* Link Styles */ 
 
 a {
   text-decoration: none;
@@ -49,7 +49,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .9s;
+  transition: all .2s;
 }
 .nav a:hover {
   color: white
@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid #27424D;
+  border-radius: 55%;
+  border: 4px dashed #27424D;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -161,7 +161,7 @@ a.github {
   background-image: url(images/github.svg);
 }
 a.social:hover {
-  opacity: 1;
+  opacity: 1; transform: scale(1.2) rotate(12deg);
 }
 .clearfix {
   clear: both;
